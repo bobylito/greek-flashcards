@@ -1,0 +1,10 @@
+# Site settings
+title: Greek flashcards for french people
+email: bobylito@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: bobylito
+github_username:  bobylito
+
+# Build settings
+markdown: kramdown

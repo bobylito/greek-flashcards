@@ -1,0 +1,12 @@
+---
+layout: cards
+---
+{% for card in site.data.flashcards %}
+  <section>
+    {% for section in card %}
+      <section>
+        <h1>{{ section }}</h1>
+      </section>
+    {% endfor %}
+  </section>
+{% endfor %}
