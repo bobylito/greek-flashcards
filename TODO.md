@@ -8,4 +8,7 @@ TODO
    - [ ] Add a button to indicate the card as known
  - [ ] fullscreen mode
  - [ ] Side menu to do the configuration
+   - [ ] MaterialUi?
  - [ ] More than one deck?
+ - [ ] Phonegap
+ - [x] Extract source code to a file
