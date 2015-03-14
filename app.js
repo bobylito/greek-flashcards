@@ -1,3 +1,34 @@
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+var Reveal = require( "reveal.js" );
+// Randomize slides
+var slidesParent = document.querySelector( ".slides" );
+var slides       = document.querySelectorAll( ".slides > section" );
+
+Array.prototype.forEach.call( slides, function( slide ){
+  slidesParent.removeChild( slide );
+} );
+
+var slidesArray = Array.prototype.slice.call( slides, 0 );
+var newSlides   = slidesArray.sort( function(){ 
+  return 0.5 - Math.random() 
+});
+
+Array.prototype.forEach.call( newSlides, function( slide ){
+  slidesParent.appendChild( slide );
+} );
+
+// Full list of configuration options available at:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+  controls: true,
+  progress: true,
+  history: true,
+  center: true,
+
+  transition: 'slide', // none/fade/slide/convex/concave/zoom
+});
+
+},{"reveal.js":2}],2:[function(require,module,exports){
 /*!
  * reveal.js
  * http://lab.hakim.se/reveal-js
@@ -4274,3 +4305,5 @@
 	return Reveal;
 
 }));
+
+},{}]},{},[1]);
