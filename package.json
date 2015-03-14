@@ -1,0 +1,28 @@
+{
+  "name": "GreekFlashcards",
+  "version": "1.0.0",
+  "description": "Greek flashcards for the masses",
+  "main": "index.js",
+  "scripts": {
+    "androidDeploy": "cd cordova && cordova run android",
+    "builToCordova": "jekyll b -d cordova/www",
+    "deploy": "npm run buildToCordova && npm run androidDeploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobylito/greek-flashcards.git"
+  },
+  "keywords": [
+    "greek",
+    "flashcards"
+  ],
+  "author": "Alexandre Stanislawski <bobylito@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobylito/greek-flashcards/issues"
+  },
+  "homepage": "https://github.com/bobylito/greek-flashcards",
+  "devDependencies": {
+    "cordova": "^4.3.0"
+  }
+}
