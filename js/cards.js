@@ -1,4 +1,6 @@
 var Reveal = require( "reveal.js" );
+var persistence = require( "./persistence" );
+
 // Randomize slides
 var slidesParent = document.querySelector( ".slides" );
 var slides       = document.querySelectorAll( ".slides > section" );
@@ -16,6 +18,19 @@ Array.prototype.forEach.call( newSlides, function( slide ){
   slidesParent.appendChild( slide );
 } );
 
+Reveal.addEventListener( "ready", function( e ){
+  console.log( "ready", arguments );
+} );
+
+Reveal.addEventListener( "slidechanged", function( e ){
+  console.log( "slide", arguments );
+  var indexV = e.indexv;
+  if( indexV === 0 ){
+    var card = e.currentSlide.dataset.card;
+    persistence.addSeenCard( card );
+  }
+} );
+
 // Full list of configuration options available at:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
@@ -23,6 +38,6 @@ Reveal.initialize({
   progress: true,
   history: true,
   center: true,
-
   transition: 'slide', // none/fade/slide/convex/concave/zoom
 });
+
