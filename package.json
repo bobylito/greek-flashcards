@@ -4,7 +4,7 @@
   "description": "Greek flashcards for the masses",
   "main": "index.js",
   "scripts": {
-    "watchify" : "watchify js/cards.js > app.js",
+    "watchify" : "watchify js/cards.js -o app.js -d -v",
     "browserify": "browserify js/cards.js > app.js",
     "androidDeploy": "cd cordova && cordova run android",
     "builToCordova": "jekyll b -d cordova/www",

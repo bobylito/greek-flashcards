@@ -10,5 +10,6 @@ TODO
  - [ ] Side menu to do the configuration
    - [ ] MaterialUi?
  - [ ] More than one deck?
+ - [ ] Browserify
  - [x] Phonegap
  - [x] Extract source code to a file
