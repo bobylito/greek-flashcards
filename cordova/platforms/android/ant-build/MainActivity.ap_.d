@@ -34,7 +34,6 @@
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/cordova_plugins.js \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/css \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/index.html \
-/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/js \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/lib \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/npm-debug.log \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/package.json \
@@ -61,10 +60,6 @@
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/css/materialize_0.95.3/materialize.min.css \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/css/print/paper.css \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/css/print/pdf.css \
-/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/js/cards.js \
-/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/js/persistence \
-/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/js/persistence/DeckStats.js \
-/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/js/persistence/index.js \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/lib/css \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/lib/js \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/assets/www/lib/css/zenburn.css \
