@@ -2,8 +2,8 @@
 layout: cards
 ---
 {% for card in site.data.flashcards %}
-  <section>
   {% capture cardName  %}{{ card | first }}{% endcapture%}
+  <section data-card="{{ cardName }}">
     {% for section in card %}
       <section data-card="{{ cardName }}">
         <h1>{{ section }}</h1>

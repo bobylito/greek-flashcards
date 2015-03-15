@@ -9,7 +9,8 @@ var deckStats = l.getItem( "deckstats" ) ?
 module.exports = {
   addSeenCard : addSeenCard,
   addFailedCard : addFailedCard,
-  addOkCard : addOkCard
+  addOkCard : addOkCard,
+  getData : getData
 };
 
 function addSeenCard( card ){
@@ -29,4 +30,8 @@ function addOkCard( card ){
 
 function saveState( entryName, state ){
   l.setItem( entryName, JSON.stringify( state ) );
+}
+
+function getData() {
+  return new DeckStats( deckStats );
 }

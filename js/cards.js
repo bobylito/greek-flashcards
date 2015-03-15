@@ -54,5 +54,7 @@ Reveal.initialize({
   progress: true,
   history: false,
   center: true,
+  touch: false,
+  keyboard: false,
   transition: 'slide', // none/fade/slide/convex/concave/zoom
 });

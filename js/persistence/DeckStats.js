@@ -34,6 +34,15 @@ DeckStats.prototype = {
       newState.okCards[ card ] = 1;
     }
     return newState;
+  },
+  getCardInfos: function( card ){
+    var infos = {};
+
+    infos.seen = ( this.seenCards.indexOf( card ) !== -1 );
+    infos.failedCards = this.failedCards[ card ] || 0;
+    infos.okCards = this.okCards[ card ] || 0;
+
+    return infos;
   }
 };
 
