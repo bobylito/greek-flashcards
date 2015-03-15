@@ -1,29 +1,26 @@
 var Reveal = require( "reveal.js" );
+var MButton = require( "mobile-button" );
 var persistence = require( "./persistence" );
+var randomizeCards = require( "./randomize" );
 
 // Randomize slides
-var slidesParent = document.querySelector( ".slides" );
-var slides       = document.querySelectorAll( ".slides > section" );
+var slidesParent = randomizeCards( document.querySelector( ".slides" ) );
 
-Array.prototype.forEach.call( slides, function( slide ){
-  slidesParent.removeChild( slide );
+new MButton.Touchend( {
+  el : document.querySelector( ".validate-card" ),
+  f : function(){
+    Reveal.right();
+  }
 } );
 
-var slidesArray = Array.prototype.slice.call( slides, 0 );
-var newSlides   = slidesArray.sort( function(){ 
-  return 0.5 - Math.random() 
-});
-
-Array.prototype.forEach.call( newSlides, function( slide ){
-  slidesParent.appendChild( slide );
-} );
-
-Reveal.addEventListener( "ready", function( e ){
-  console.log( "ready", arguments );
+new MButton.Touchend( {
+  el : document.querySelector( ".show-hints" ),
+  f : function(){
+    Reveal.down();
+  }
 } );
 
 Reveal.addEventListener( "slidechanged", function( e ){
-  console.log( "slide", arguments );
   var indexV = e.indexv;
   if( indexV === 0 ){
     var card = e.currentSlide.dataset.card;
@@ -31,13 +28,13 @@ Reveal.addEventListener( "slidechanged", function( e ){
   }
 } );
 
+
 // Full list of configuration options available at:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-  controls: true,
+  controls: false,
   progress: true,
   history: true,
   center: true,
   transition: 'slide', // none/fade/slide/convex/concave/zoom
 });
-

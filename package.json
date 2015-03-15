@@ -4,10 +4,10 @@
   "description": "Greek flashcards for the masses",
   "main": "index.js",
   "scripts": {
-    "watchify" : "watchify js/cards.js -o app.js -d -v",
+    "watchify": "watchify js/cards.js -o app.js -d -v",
     "browserify": "browserify js/cards.js > app.js",
     "androidDeploy": "cd cordova && cordova run android",
-    "builToCordova": "jekyll b -d cordova/www",
+    "buildToCordova": "rm -rf cordova/www/ && jekyll b -d cordova/www",
     "deploy": "npm run buildToCordova && npm run androidDeploy"
   },
   "repository": {
@@ -30,6 +30,7 @@
     "watchify": "^2.4.0"
   },
   "dependencies": {
+    "mobile-button": "^0.8.1",
     "reveal.js": "git://github.com/bobylito/reveal.js"
   }
 }

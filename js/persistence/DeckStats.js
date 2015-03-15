@@ -1,4 +1,5 @@
 var DeckStats = function( params ){
+  params = params || {};
   this.seenCards = params.seenCards || [];
   this.failedCards = params.failedCards || {};
   this.okCards = params.okCards || {};
