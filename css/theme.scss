@@ -28,7 +28,7 @@ $mainFont: 'open-sans', Helvetica, sans-serif;
 $headingFont: 'Ubuntu', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
-$headingTextTransform: capitalize;
+$headingTextTransform: lowercase;
 $headingFontWeight: 300;
 $linkColor: #42affa;
 $linkColorHover: lighten( $linkColor, 15% );
