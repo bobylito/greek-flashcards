@@ -55,6 +55,6 @@ Reveal.initialize({
   history: false,
   center: true,
   touch: false,
-  keyboard: false,
+  keyboard: true,
   transition: 'slide', // none/fade/slide/convex/concave/zoom
 });
