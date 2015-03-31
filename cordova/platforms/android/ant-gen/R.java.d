@@ -1,4 +1,4 @@
-/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-gen/io/cordova/hellocordova/R.java \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-gen/me/bobylito/greekflashcards/R.java \
  : /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/res/drawable/icon.png \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/res/drawable-hdpi/icon.png \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/res/drawable-land-hdpi/screen.png \

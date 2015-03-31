@@ -6,4 +6,11 @@
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/io/cordova/hellocordova/R$string.class \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/io/cordova/hellocordova/R$xml.class \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/io/cordova/hellocordova/R.class \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/me/bobylito/greekflashcards/BuildConfig.class \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/me/bobylito/greekflashcards/MainActivity.class \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/me/bobylito/greekflashcards/R$attr.class \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/me/bobylito/greekflashcards/R$drawable.class \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/me/bobylito/greekflashcards/R$string.class \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/me/bobylito/greekflashcards/R$xml.class \
+/Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/classes/me/bobylito/greekflashcards/R.class \
 /Users/bobylito/Copy/source.sync/GreekFlashcards/cordova/platforms/android/ant-build/dexedLibs/classes-f63d6237b746c72e3cdc2b651d4acb6f.jar \
