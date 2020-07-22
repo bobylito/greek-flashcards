@@ -4,7 +4,7 @@
   "description": "Greek flashcards for the masses",
   "main": "index.js",
   "scripts": {
-    "watchify" : "watchify js/cards.js -o app.js -d -v",
+    "watchify": "watchify js/cards.js -o app.js -d -v",
     "browserify": "browserify js/cards.js > app.js",
     "androidDeploy": "cd cordova && cordova run android",
     "builToCordova": "jekyll b -d cordova/www",
@@ -25,11 +25,11 @@
   },
   "homepage": "https://github.com/bobylito/greek-flashcards",
   "devDependencies": {
-    "browserify": "^9.0.3",
-    "cordova": "^5.3.0",
-    "watchify": "^2.4.0"
+    "browserify": "^16.5.1",
+    "cordova": "^9.0.0",
+    "watchify": "^3.11.1"
   },
   "dependencies": {
-    "reveal.js": "git://github.com/bobylito/reveal.js"
+    "reveal.js": "^4.0.2"
   }
 }

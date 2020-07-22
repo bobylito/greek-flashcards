@@ -23,6 +23,17 @@ be enough).
 
 Run jekyll : `jekyll server` and then check http://localhost:4000
 
+### Web page (bundler)
+
+If you use [bundler](https://bundler.io/) you can run:
+
+```
+bundle install
+bundle exec jekyll serve
+```
+
+To rebuild the `app.js`, run `npm run-script browserify`.
+
 ### Android app
 
 You need to have the android sdk properly installed with ant and java too.
